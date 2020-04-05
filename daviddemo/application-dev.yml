@@ -41,10 +41,10 @@ spring:
 
 
     # 静态页面视图解析
-#    mvc:
-#      view:
-#        prefix: /
-#        suffix: .html
+    #    mvc:
+    #      view:
+    #        prefix: /
+    #        suffix: .html
 
     # mq配置
     rabbitmq:
@@ -62,15 +62,12 @@ mybatis:
 
 #pagehelper
 pagehelper:
-    helperDialect: mysql
-    reasonable: true
-    supportMethodsArguments: true
-    params: count=countSql
-    returnPageInfo: check
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+  returnPageInfo: check
 
 example:
   service:
     enabled:false
-
-
-
