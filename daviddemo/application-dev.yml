@@ -34,10 +34,10 @@
 #            enabled: false
 
 spring:
-    datasource:
-        url: jdbc:mysql://47.104.81.41/david_demo?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-        username: root
-        password: Zj12Zj12
+  datasource:
+    url: jdbc:mysql://47.104.81.41/david_demo?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: root
+    password: Zj12Zj12
 
 
     # 静态页面视图解析
