@@ -10,7 +10,7 @@
 #          filters: stat
 #          driver-class-name: com.mysql.jdbc.Driver
 #          #基本属性
-#          url: jdbc:mysql://47.104.81.41/david_demo?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+#          url: jdbc:mysql://47.104.81.41/david_demo?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
 #          username: root
 #          password: Zj12Zj12
 #          #配置初始化大小/最小/最大
